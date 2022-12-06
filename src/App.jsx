@@ -23,6 +23,7 @@ function App() {
 			<div className='App'>
 				<Routes>
 					<Route path='/' element={<Header />}>
+						<Route index element={<Login />} />
 						<Route path='register' element={<Registration />} />
 						<Route path='login' element={<Login />} />
 						<Route path='courses' element={<Courses />} />
